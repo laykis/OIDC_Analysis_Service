@@ -270,11 +270,11 @@ def rating():
     
     return re
 
-schedule.every().day.at("00:00").do(Mdata)
-schedule.every().day.at("01:00").do(calaver)
-schedule.every().day.at("02:00").do(cluster)
-schedule.every().day.at("09:00").do(rating)
+# schedule.every().day.at("00:00").do(Mdata)
+# schedule.every().day.at("01:00").do(calaver)
+# schedule.every().day.at("02:00").do(cluster)
+# schedule.every().day.at("09:00").do(rating)
 
-while True:
-    schedule.run_pending()
-    time.sleep(1)
+# while True:
+#     schedule.run_pending()
+#     time.sleep(1)
