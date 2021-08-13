@@ -4,4 +4,4 @@ RUN pip3 install django pymysql scipy pandas seaborn sklearn matplotlib sqlalche
 WORKDIR /usr/src/app
 COPY . .
 WORKDIR ./BpmService/Bpmrate
-CMD ["python", "manage.py", "runserver"]
+CMD ["python", "manage.py", "runserver", "0:8000"]
