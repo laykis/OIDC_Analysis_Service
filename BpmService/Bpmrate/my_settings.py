@@ -9,4 +9,3 @@ DATABASES = {
     }
 }
 SECRET = 'lalorsh6471!'
-ALLOWED_HOSTS = [ u'118.67.132.152']
